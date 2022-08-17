@@ -5,7 +5,6 @@ import numpy as np
 
 # Import data
 df = None
-dwadwada
 
 # Add 'overweight' column
 df['overweight'] = None
