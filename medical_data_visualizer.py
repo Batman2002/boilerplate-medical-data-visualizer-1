@@ -32,7 +32,7 @@ def draw_cat_plot():
     df_cat=df2.melt(id_vars=["cardio"],value_vars=["cholesterol","gluc","smoke","alco","active","overweight"])
     df_cat["total"]=df_cat["value"]
     df_cat=df_cat.groupby(["cardio","variable","value"]).count()
-    # dfcat=df_cat.copy()
+    # dfcat=df_cat.copy()ctyvvhvcytv uj
     df_cat=df_cat.reset_index()
     df_cat.sort_values("total",ascending=False)
     df_cat["value"]=df_cat["value"].astype(str)
