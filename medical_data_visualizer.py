@@ -41,6 +41,7 @@ def draw_cat_plot():
     df_cat
     fig=sns.catplot(data=df_cat,x="variable",y="total",col="cardio",hue="value",kind="bar").fig
     # df_cat
+    # dadwed
 
 
     # Group and reformat the data to split it by 'cardio'. Show the counts of each feature. You will have to rename one of the columns for the catplot to work correctly.
